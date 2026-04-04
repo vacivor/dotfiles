@@ -1,0 +1,34 @@
+# general
+window-save-state = always
+scrollback-limit = 10000
+
+# shell
+shell-integration-features = no-cursor
+
+# font
+font-family = "Menlo"
+font-size = 13
+font-thicken = true
+font-style-bold = "Regular"
+font-style-italic = "Regular Italic"
+font-style-bold-italic = "Bold Italic"
+
+# cursor
+cursor-style = block
+cursor-style-blink = true
+shell-integration-features = no-cursor
+
+# window
+window-decoration = client
+window-height = 36
+window-width = 120
+
+background-opacity = 0.95
+background-blur-radius = 25
+
+# macos
+macos-titlebar-style = tabs
+macos-option-as-alt = true
+
+# theme
+config-file = themes/atom-one-light
