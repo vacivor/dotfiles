@@ -1,0 +1,36 @@
+[general]
+import = [
+  "~/.config/alacritty/themes/solarized_light.toml"
+]
+
+[window]
+decorations = "Full"
+dimensions = { columns = 110, lines = 32 }
+opacity = 1
+blur = true
+
+[font]
+size = 11.0
+
+[font.normal]
+family = "MesloLGS Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "MesloLGS Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "MesloLGS Nerd Font Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "MesloLGS Nerd Font Mono"
+style = "Bold Italic"
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
+[scrolling]
+history = 10000
+multiplier = 3
